@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Katriah's Sheet</title>
+        <link rel="stylesheet" type="text/css" href="pfstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&amp;v1" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Caudex:regular,bold&amp;v1" rel="stylesheet" type="text/css">
+
+        <script>
+            function showText(idName) {
+                var popup = document.getElementById(idName);
+                popup.classList.toggle("show");
+                console.log("donk!");
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="main-container">
+
+            <div id="header-image">
+                <img src="sheetheader.png" alt="Henry's Fabulous Character Sheet"/>
+            </div>
+
+            <div class="general total">
+                <h1>General</h1>
+                <div class="general-special">
+                    <div class="general content">
+                        <div class="vitals">
+                            <div class="field w375" id="character-name">
+                                <label>Character Name</label>
+                                <input type="text" value="Katriah"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Alignment</label>
+                                <input class="centered" type="text" value="LN"/>
+                            </div>
+    
+                            <div class="field w375">
+                                <label>Character Class & Level</label>
+                                <input type="text" value="Cleric 3"/>
+                            </div>
+    
+                            <div class="field w240">
+                                <label>Deity</label>
+                                <input type="text" value="Volnura"/>
+                            </div>
+    
+                            <div class="field w240">
+                                <label>Homeland</label>
+                                <input type="text" value="Venizia"/>
+                            </div>
+    
+                            <div class="field w240">
+                                <label>Race</label>
+                                <input type="text" value="Tiefling"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Size</label>
+                                <input class="centered" type="text" value="M"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Gender</label>
+                                <input class="centered" type="text" value="F"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Age</label>
+                                <input class="centered" type="text" value="24"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Height</label>
+                                <input class="centered" type="text" value="5&lsquo; 8&quot;"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Weight</label>
+                                <input class="centered" type="text" value="128 lbs"/>
+                            </div>
+    
+                            <div class="field w230">
+                                <label>Hair</label>
+                                <input class="centered" type="text" value="Reddish White"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label>Eyes</label>
+                                <input class="centered" type="text" value="Yellow"/>
+                            </div>
+                        </div>
+                        
+                        <div class="content ability-scores highlighted">
+                            <div class="field w60">
+                                <label><b>STR</b></label>
+                                <input class="centered bold-field" type="text" value="7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label>Str Mod</label>
+                                <input class="centered alt-field" type="text" value="-2"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>DEX</b></label>
+                                <input class="centered" type="text" value="14"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label>Dex Mod</label>
+                                <input class="centered alt-field" type="text" value="+2"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>CON</b></label>
+                                <input class="centered" type="text" value="14"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label>Con Mod</label>
+                                <input class="centered alt-field" type="text" value="+2"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>INT</b></label>
+                                <input class="centered bold-field" type="text" value="12"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label>Int Mod</label>
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>WIS</b></label>
+                                <input class="centered" type="text" value="18"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label>Wis Mod</label>
+                                <input class="centered alt-field" type="text" value="+4"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>CHA</b></label>
+                                <input class="centered" type="text" value="14"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label>Cha Mod</label>
+                                <input class="centered alt-field" type="text" value="+2"/>
+                            </div>
+                        </div>
+                        
+
+                    </div>
+
+                    <div class="character-image">
+                        <img id="character-image" src="KatriahSnip.PNG"/>
+                    </div>
+
+                </div>
+            </div>    
+            
+            <!-- <hr style="width:1000px;margin:40px 100px;"> -->
+
+            <div class="combat skills dual total">
+                <div class="combat feats half">
+                    <h1 class="half">Combat</h1>
+                        <div class="combat content">
+                            <div class="content ac-saves">
+                                <div class="ac content">
+                                    <div class="field w60 highlighted-dark">
+                                        <label><b>AC</b></label>
+                                        <input class="centered" type="text" value="21"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Armor</label>
+                                        <input class="centered alt-field" type="text" value="+7"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Def</label>
+                                        <input class="centered alt-field" type="text" value="0"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Dex</label>
+                                        <input class="centered alt-field" type="text" value="+2"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>NA</label>
+                                        <input class="centered alt-field" type="text" value="0"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Shield</label>
+                                        <input class="centered alt-field" type="text" value="+2"/>
+                                    </div>
+    
+                                    <div class="field w120">
+                                        <label>Other</label>
+                                        <input class="centered" type="text" value=""/>
+                                    </div>
+    
+                                    
+                                </div>
+    
+                                <div class="fort content highlighted">
+                                    <div class="field w120">
+                                        <label><b>Fortitude</b></label>
+                                        <input class="centered" type="text" value="+5"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Base</label>
+                                        <input class="centered alt-field" type="text" value="+3"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Con</label>
+                                        <input class="centered alt-field" type="text" value="+2"/>
+                                    </div>
+    
+                                    <div class="field w60">
+                                        <label>Res</label>
+                                        <input class="centered alt-field" type="text" value="0"/>
+                                    </div>
+    
+                                    <div class="field w120">
+                                        <label>Other</label>
+                                        <input class="centered" type="text" value=""/>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="field w75">
+                                    <label>Touch AC</label>
+                                    <input class="centered" type="text" value="12"/>
+                                </div>
+    
+                                <div class="ref content highlighted">
+                                    <div class="field w120">
+                                        <label><b>Reflex</b></label>
+                                        <input class="centered" type="text" value="+3"/>
+                                    </div>
+            
+                                    <div class="field w60">
+                                        <label>Base</label>
+                                        <input class="centered alt-field" type="text" value="+1"/>
+                                    </div>
+            
+                                    <div class="field w60">
+                                        <label>Dex</label>
+                                        <input class="centered alt-field" type="text" value="+2"/>
+                                    </div>
+            
+                                    <div class="field w60">
+                                        <label>Res</label>
+                                        <input class="centered alt-field" type="text" value="0"/>
+                                    </div>
+            
+                                    <div class="field w120">
+                                        <label>Other</label>
+                                        <input class="centered" type="text" value=""/>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="field w75">
+                                    <label>FF AC</label>
+                                    <input class="centered" type="text" value="19"/>
+                                </div>
+    
+                                <div class="will content highlighted">
+                                    <div class="field w120">
+                                        <label><b>Will</b></label>
+                                        <input class="centered" type="text" value="+7"/>
+                                    </div>
+            
+                                    <div class="field w60">
+                                        <label>Base</label>
+                                        <input class="centered alt-field" type="text" value="+3"/>
+                                    </div>
+            
+                                    <div class="field w60">
+                                        <label>Wis</label>
+                                        <input class="centered alt-field" type="text" value="+4"/>
+                                    </div>
+            
+                                    <div class="field w60">
+                                        <label>Res</label>
+                                        <input class="centered alt-field" type="text" value="0"/>
+                                    </div>
+            
+                                    <div class="field w120">
+                                        <label>Other</label>
+                                        <input class="centered" type="text" value=""/>
+                                    </div>
+    
+                                </div>
+    
+                                <div class="field w75">
+                                    <label>Temp AC</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="content res-hp">
+                                <div class="field w260">
+                                    <label>Resistances</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+    
+                                <div class="field w260">
+                                    <label>Immunities</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+    
+                                <div class="field w75 highlighted-dark">
+                                    <label><b>HP</b></label>
+                                    <input class="centered" type="text" value="24"/>
+                                </div>
+    
+                                <div class="field w60">
+                                    <label>Damage</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+    
+                                <div class="field w60">
+                                    <label>Remaining</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+    
+                                <div class="field w60">
+                                    <label>Temp</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+    
+                                <div class="field w60">
+                                    <label>Nonlethal</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+    
+                                <div class="field w150">
+                                    <label>DR</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <div class="field w60">
+                                    <label><b>Init</b></label>
+                                    <input class="centered" type="text" value="+2"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Dex</label>
+                                    <input class="centered alt-field" type="text" value="+2"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Other</label>
+                                    <input class="centered alt-field" type="text" value=""/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>SR</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+
+                                <div class="field w75">
+                                    <label>Speed</label>
+                                    <input class="centered" type="text" value="30 ft."/>
+                                </div>
+
+                                <div class="field w150">
+                                    <label>Other Movement</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="cmb content highlighted">
+                                <div class="field w60">
+                                    <label><b>CMB</b></label>
+                                    <input class="centered" type="text" value="21"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>BAB</label>
+                                    <input class="centered alt-field" type="text" value="+7"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Str</label>
+                                    <input class="centered alt-field" type="text" value="0"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Size</label>
+                                    <input class="centered alt-field" type="text" value="+2"/>
+                                </div>
+
+                                <div class="field w120">
+                                    <label>Other</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="bab field w130 highlighted-dark">
+                                <label>Base Attack Bonus</label>
+                                <input class="centered" type="text" value="+2"/>
+                            </div>
+
+                            <div class="cmd content highlighted">
+                                <div class="field w60">
+                                    <label><b>CMD</b></label>
+                                    <input class="centered" type="text" value="21"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>BAB</label>
+                                    <input class="centered alt-field" type="text" value="+7"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Str</label>
+                                    <input class="centered alt-field" type="text" value="0"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Dex</label>
+                                    <input class="centered alt-field" type="text" value="0"/>
+                                </div>
+
+                                <div class="field w60">
+                                    <label>Size</label>
+                                    <input class="centered alt-field" type="text" value="+2"/>
+                                </div>
+
+                                <div class="field" style="width:111px;">
+                                    <label>Other</label>
+                                    <input class="centered" type="text" value=""/>
+                                </div>
+
+                                
+                            </div>
+
+                            <div class="sr field w60">
+                                <label>Misc</label>
+                                <input class="centered" type="text" value=""/>
+                            </div>
+
+                        </div>
+
+                    <h1 class="half">Feats</h1>
+                    <div class="feats content">
+                        
+                        <span class="popuptext" id="selective-channel">When you channel energy, you can choose a number of targets in the area up to your Charisma modifier. 
+                                These targets are not affected by your channeled energy.</span>
+                        <div class="bubble popup" onclick="showText(`selective-channel`)">Selective Channel
+                            
+                        </div>
+
+                        <div class="bubble">Brew Potion</div>
+                    </div>    
+                </div>
+
+                <div class="skills half">
+                    <h1 class="half">Skills</h1>
+                    <div class="skills-content">
+                        <div class="skill-row acrobatics" id="top-skill">
+
+                            <div id="top-skill-title">
+                                <!-- <p><b>Skill</b></p> -->
+                                <p class="skillname">Acrobatics</p>
+                            </div>
+
+                            <div class="field w60">
+                                <label><b>Total</b></label>
+                                <input class="centered" type="text" value="+2"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>Ability</b></label>
+                                <input class="centered alt-field" type="text" value="+2"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>Ranks</b></label>
+                                <input class="centered alt-field" type="text" value="0"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <label><b>Class</b></label>
+                                <input class="centered alt-field" type="text" value="0"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <label><b>Other</b></label>
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row appraise">
+                            <p class="skillname">Appraise</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row bluff">
+                            <p class="skillname">Bluff</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row climb">
+                            <p class="skillname">Climb</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row craft">
+                            <p class="skillname">Craft</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row diplomacy">
+                            <p class="skillname">Diplomacy</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row disable-device">
+                            <p class="skillname">Disable Device</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row disguise">
+                            <p class="skillname">Disguise</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row escape-artist">
+                            <p class="skillname">Escape Artist</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row fly">
+                            <p class="skillname">Fly</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row handle-animal">
+                            <p class="skillname">Handle Animal</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row heal">
+                            <p class="skillname">Heal</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row intimidate">
+                            <p class="skillname">Intimidate</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-arcana">
+                            <p class="skillname">Kno: Arcana</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-dungeoneering">
+                            <p class="skillname">Kno: Dungeoneering</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-engineering">
+                            <p class="skillname">Kno: Engineering</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-geography">
+                            <p class="skillname">Kno: Geography</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-history">
+                            <p class="skillname">Kno: History</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-local">
+                            <p class="skillname">Kno: Local</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-nature">
+                            <p class="skillname">Kno: Nature</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-nobility">
+                            <p class="skillname">Kno: Nobility</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-planes">
+                            <p class="skillname">Kno: Planes</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row knowledge-religion">
+                            <p class="skillname">Kno: Religion</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row linguistics">
+                            <p class="skillname">Linguistics</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row perception">
+                            <p class="skillname">Perception</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row perform">
+                            <p class="skillname">Perform</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row profession-merchant">
+                            <p class="skillname">Prof: Merchant</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row profession-chef">
+                            <p class="skillname">Prof: Chef</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row ride">
+                            <p class="skillname">Ride</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row sense-motive">
+                            <p class="skillname">Sense Motive</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row sleight-of-hand">
+                            <p class="skillname">Sleight of Hand</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row spellcraft">
+                            <p class="skillname">Spellcraft</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row stealth">
+                            <p class="skillname">Stealth</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row survival">
+                            <p class="skillname">Survival</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row swim">
+                            <p class="skillname">Swim</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row use-magic-device">
+                            <p class="skillname">Use Magic Device</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row free-space-skill">
+                            <p class="skillname">Free Space</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                        <div class="skill-row free-space-skill">
+                            <p class="skillname">Free Space</p>
+                            <div class="field w60">
+                                <input class="centered" type="text" value="+7"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+1"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="3"/>
+                            </div>
+    
+                            <div class="field w60">
+                                <input class="centered alt-field" type="text" value="+3"/>
+                            </div>
+    
+                            <div class="field w120">
+                                <input class="centered" type="text" value=""/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+        
+
+
+    </body>
+
+
+</html>
